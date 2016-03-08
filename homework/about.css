@@ -1,0 +1,27 @@
+body {	font-family: 'century gothic';
+}
+p {
+	font-style: bold;
+	font-size: 20px;
+}
+ul {
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'century gothic';
+}
+body {
+    background: lightseagreen;
+    text-align: center;
+}
+li {
+	display: inline;
+	padding: 35px;
+}
+
+
