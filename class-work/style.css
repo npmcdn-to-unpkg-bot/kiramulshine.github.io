@@ -1,0 +1,33 @@
+body {
+    background: lightseagreen;
+    text-align: center;
+}
+h1 {
+	font-family: 'century gothic';
+	font-size: 30px; 
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+p {
+	font-style: bold;
+	font-family: 'century gothic';
+	font-size: 20px;
+}
+ul {
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'century gothic';
+
+}
+li {
+	display: inline;
+	padding: 35px;
+}
+
+
