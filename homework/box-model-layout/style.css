@@ -1,0 +1,51 @@
+h1 {
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+.full {
+	background-color: rgb(222, 222, 222);
+    width: 75%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+#one {
+	color: purple;
+	background-color: tomato;
+
+}
+
+#two {
+	color: green;
+	background-color: tomato;
+
+}
+
+#three {
+	color: yellow;
+	background-color: tomato;
+}
+
+.everything {
+	background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.text {
+	background-color: tomato;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.text a {
+	text-decoration: none;
+	color: white;
+}
