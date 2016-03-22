@@ -1,0 +1,162 @@
+
+body {
+	margin: 0px;
+}
+
+/* Header Styles */
+
+header {
+	background-color: black;
+	overflow: auto;
+	padding: 0 40px;
+	border-bottom: 5px solid yellow;
+}
+
+header h1 {
+	float: left;
+	color: yellow;
+}
+
+header nav {
+	float: right;
+	margin-top: 30px;
+	font-family: "oswald";
+	font-size: 18px;
+}
+
+header nav a {
+	color: white;
+	text-decoration: none;
+	margin-left: 20px; 
+}
+
+/* P class Styles */
+
+
+.tagline {
+	text-align: center;
+	font-family: "merriweather" serif;
+	font-style: italic;
+	background: #C6C6C6;
+	font-size: 30px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.underline {
+	border-bottom: solid 2px yellow;
+}
+
+/* Content Styles */
+
+.image {
+	background-image: url(../img/coworking.jpg);
+	height: 600px;
+	background-size: cover;
+}
+	
+.seethrough {
+	float: right;
+	width: 500px;
+	padding: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	background-color: lightgray;
+	opacity: 0.8;
+}
+
+.seethrough h2 {
+	font-family: "oswald";
+	font-size: 30px;
+	padding-top: 0px;
+}
+
+.seethrough p {
+	font-family: "source sans pro";
+	font-size: 25px;
+}
+
+.seethrough button {
+	background-color: yellow;
+	text-decoration: bold;
+	font-family: "oswald";
+	font-size: 20px;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	border: 2px normal;
+    border-radius: 10px;
+}
+
+
+/* Section Styles */
+
+section {
+	overflow: auto;
+	display: inline;
+}
+
+section h2 {
+	font-family: "merriweather";
+	font-size: 30px;
+}
+
+section p {
+	font-family: "source sans pro";
+	font-size: 20px;
+}
+
+section button {
+	background-color: #C6C6C6;;
+	text-decoration: bold;
+	font-family: "oswald";
+	font-size: 20px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	border: 2px normal;
+    border-radius: 10px;
+
+}
+
+
+section article {
+		background-color: lightgrey;
+		width: 365.85px;
+		padding: 30px;
+}
+
+#one {
+	float: left;
+	border-right: .5px solid darkgrey;
+}
+
+
+#two {	
+	float: left;
+	border-right: .5px solid darkgrey;
+}
+
+#three {
+	float: right;
+	 
+}
+
+/* Footer Styles */
+
+
+.footer {
+	font-family: "source sans pro";
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	margin: auto;
+	padding: 30px 30px;
+}
+
+
