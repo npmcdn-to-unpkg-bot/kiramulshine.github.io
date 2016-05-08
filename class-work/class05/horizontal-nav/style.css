@@ -1,0 +1,16 @@
+nav {
+	background-color: black;
+}
+
+nav a {
+	color: #cccccc;
+	font-family: helvetica;
+	text-decoration: none;
+	display: inline-block;
+	padding: 40px;
+}
+
+a:hover {
+	color: deeppink;
+	background-color: white;
+}

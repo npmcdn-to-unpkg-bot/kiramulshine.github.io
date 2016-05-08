@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+	margin-top: 200px;
+	font-family: 'Century Gothic';
+	font-size: 35px;
+	background: white;
+	color: black;
+
+}
+
+#f {
+	margin-bottom: 100px;
+}
+
+#c {
+	margin-top: 100px;
+}
+
+input {
+	margin: 35px;
+}

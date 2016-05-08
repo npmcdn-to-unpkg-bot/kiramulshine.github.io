@@ -1,0 +1,72 @@
+<html>
+
+
+<head>
+<title> legs by liz </title>
+<link rel="stylesheet" type="text/css" href="women.css">
+<link
+</head>
+
+<body>
+<div id="wrapper">
+
+<div id="header">
+
+
+	<div id="nav">
+		<nav id ="navOne"> 
+			<h1> Gallery </h1>
+		</nav>
+
+		<nav id = "navTwo">
+			<a href="homePage.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="blog.html">Blog</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="mens.html">Men's</a>
+			<a href="howToOrder.html">How to order</a>
+		</nav>
+	</div>
+</div>
+
+<div id="content">
+	<div class="box">
+		<h2 id="pants"> Pants </h2> 
+			<p> This is where you will place images of pants to sell</p>
+		<h2 id="capris"> Capris </h2>
+			<p> This is where you will place images of capris to sell</p>
+		<h2 id="shorts"> Shorts </h2>
+			<p> This is where you will place images of shorts to sell </p>
+		<h2 id="bands"> Headbands </h2>
+			<p> This is where you will place images of headbands to sell </p>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="footer">
+	<a href="https://www.facebook.com/liz.mulshine" class="facebook"><img src="Photos/facebook.jpg"></a>
+	<a href="https://www.instagram.com/lizmulshine/" class="insta"><img src="Photos/insta.jpg"></a>
+	<a href="#" class="cart"><img src="Photos/cart.jpg"></a>
+
+	<p> copyright 2016 : <a href="contact.html">contact us</a> 
+	</p>
+
+	</div>
+</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+    
+    return false;
+});
+</script>
+</body>
+</html>

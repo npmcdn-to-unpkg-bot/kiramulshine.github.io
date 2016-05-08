@@ -1,0 +1,125 @@
+h1 {
+	font-family: cursive;
+	width: auto;
+	text-align: center;
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: auto;
+
+}
+
+h1:hover {
+	background: white;
+	opacity: 1.0;
+}
+
+body {
+	margin: 0px;
+	background-color: white;
+	background-repeat: repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#nav a {
+	width: 300px
+	color: white;
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+}
+
+
+#nav a:hover {
+	color: black
+}
+
+#nav {
+	background: black;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Chalkduster';
+	width: 100%;
+
+
+}
+
+#navOne {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#navOne h1 {
+	font-family: 'Chalkduster';
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	background: black;
+}
+
+#navTwo {
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+
+    #scroller {
+        position: relative;
+    }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+    }
+
+
+
+#footer {
+	clear: both;
+	margin: 0 auto;
+	background: black;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+#footer a {
+	padding: 10px;
+}
+
+#footer p {
+	color: white;
+	font-family: 'Chalkduster';
+	font-size: 10px;
+	padding-left: 10px;
+}
+
+#footer p a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Chalkduster';
+	font-size: 10px;
+}
+
+#footer p a:hover {
+	color: black;
+}
