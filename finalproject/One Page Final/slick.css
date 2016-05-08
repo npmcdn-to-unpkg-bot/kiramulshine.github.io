@@ -151,7 +151,6 @@
     left: 100px;
     position: absolute;
     display: block; 
-    background-image: url('Photos/prev.jpg');
 }
 
 .slick-next {
@@ -159,3 +158,4 @@
     position: absolute;
     display: block; 
 }
+

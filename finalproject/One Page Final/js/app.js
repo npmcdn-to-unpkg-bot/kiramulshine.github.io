@@ -1,36 +1,8 @@
 
-//burger
-
-
-
-//changes while scrolling in CSS
-
-$(document).ready(function () {
-
-    $(window).scroll(function (){
-        var scrollTop = $(window).scrollTop()
-        
-        if (scrollTop > 1500) {
-            $('header').css('background', 'white')
-        } else {
-           $('body').css('background', 'white')
-        }
-    })
-})
-
- 
-
-// carousel
-
-$('#burger').click(function () {
-    $('navOne').slideToggle();
-        display: inline;
-
-});
 
 //gallery
 
- $(function(){
+ $(document).ready(function(){
         var scroller = $('#scroller div.innerScrollArea');
         var scrollerContent = scroller.children('ul');
         scrollerContent.children().clone().appendTo(scrollerContent);
@@ -92,12 +64,18 @@ $(document).ready( function() {
 // carousel
 
 $('.carousel').slick({    
-    
+
+});
+
+//burger
+
+$('a #burger').click(function () {
+    $('.nav').slideToggle();
+        display: inline;
 });
 
 
-
-
+$()
 
 
 

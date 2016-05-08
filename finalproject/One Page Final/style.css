@@ -6,39 +6,33 @@
 	/*width: 100%;*/
 /*}*/
 
-h1 {
-	width: 100%;
-	text-align: center;
-	background-color: white;
-	margin-top: 0px;
-	padding-top: 102px;
-	padding-bottom: 0px;
-	margin-bottom: auto;
-}
 
-
-h1:hover {
-	background: white;
-	opacity: 1.0;
-}
 
 body {
 	margin: 0px;
 	background-attachment: scroll;
 	font-family: 'Century Gothic';
+	width: 100%;
 }
 
 
 /*Main Nav*/
 
+
 .nav a {
 	width: 300px;
 	color: white;
+	background: black;
 	text-decoration: none;
-	color: white;
-	padding: 35px;
+	padding-left: 35px;
+	padding-right: 35px;
 }
 
+/*#logo {
+	float: left;
+	clear: auto;
+/*	display: none;
+*/}*/
 
 .nav a:hover {
 	color: black
@@ -47,21 +41,20 @@ body {
 .nav {
 	background: black;
 	color: white;
-	text-align: center;
-	padding: 40px 0px;
+	padding-top: 20px;
+	padding-bottom: 15px;
 	font-size: 35px;
 	margin: 0 auto;
 	width: 100%;
 	position: fixed;
 	top: 0;
-	padding: 25px;
 	z-index: 1000;
-
 }
 
 .navOne {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	background: black;
+	padding: 20px;
+	width: 100%;
 }
 
 #burger {
@@ -75,8 +68,7 @@ body {
 	}
 
 	#burger {
-/*		float: right;
-*/		display: block;
+		display: block;
 		text-align: center;
 	}
 
@@ -116,6 +108,7 @@ body {
 
 .banner {
 	background: black;
+	padding-top: 164px;
 }
 /*About*/
 
@@ -129,7 +122,7 @@ body {
 	width: 100%;
 	background: white;
 	color: black;
-	padding-top: 100px;
+	padding-top: 75px;
 }
 
 .carousel {
@@ -144,17 +137,13 @@ body {
  
 /*gallery*/
 
-.gallery {
-	background: black;
-}
-
 .gallery h3 {
 	font-size: 35px;
 	text-align: center;
 	width: 100%;
 	background: white;
 	color: black;
-	padding-top: 100px;
+	padding-top: 75px;
 }
 
 .grid {
@@ -179,7 +168,7 @@ body {
 	width: 100%;
 	background: white;
 	color: black;
-	padding-top: 100px;
+	padding-top: 75px;
 
 }
 
@@ -258,7 +247,7 @@ input[type='radio'] {
 }
 
 #button:hover{
-	background: white;
+	opacity: 0.3;
 }
 
 
