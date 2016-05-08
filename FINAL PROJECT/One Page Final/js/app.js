@@ -1,8 +1,6 @@
 
 //burger
-$('#burger').on('click', function() {
-    
-});
+
 
 
 //changes while scrolling in CSS
@@ -17,25 +15,18 @@ $(document).ready(function () {
         } else {
            $('body').css('background', 'white')
         }
-
-
-        //Adding classes as scroll down!! 
-        //Adding and removing styles as go
-
-        //if (scrollTop > 100) {
-           // $('header').addClass('scrolled')
-        //} else {
-           // $('header').removeClass('scrolled')
-        //}
     })
 })
 
-   // })
-//})
+ 
 
 // carousel
 
+$('#burger').click(function () {
+    $('navOne').slideToggle();
+        display: inline;
 
+});
 
 //gallery
 
@@ -94,27 +85,17 @@ $('.grid').masonry({
 // scroll through//
 
 $(document).ready( function() {
-    $('.nav').smint();
+    $('.navOne').smint();
 });
-
-
-function submit_by_id() {
-var name = document.getElementById("form").value;
-var email = document.getElementById("email").value;
-if (validation()) // Calling validation function
-{
-document.getElementById("form").submit(); //form submission
-alert(" form : " + name + " \n email : " + email + " \n Form Id : " + document.getElementById("form_id").getAttribute("id") + "\n\n Form Submitted Successfully......");
-}
-}
 
 
 // carousel
 
 $('.carousel').slick({
 });
-}
-// google maps
+// burger
+
+
 
 
 

@@ -12,7 +12,7 @@ h1 {
 	text-align: center;
 	background-color: white;
 	margin-top: 0px;
-	padding-top: 0px;
+	padding-top: 102px;
 	padding-bottom: 0px;
 	margin-bottom: auto;
 }
@@ -61,11 +61,37 @@ body {
 
 }
 
-#navOne {
+.navOne {
 	padding: 10px;
 }
 
+#burger {
+	display: none;
+}
 
+@media (max-width: 768px) {
+	.navOne {
+		display: none;
+	}
+
+	#burger {
+/*		float: right;
+*/		display: block;
+		text-align: center;
+	}
+
+	.nav {
+		padding: 10px;
+	}
+	.slide {
+		padding-top: 0px;
+		padding-bottom: 400px;
+		padding-right: 0px;
+		padding-left: 0px;
+		font-size: 12px;
+	}
+
+}
 
 /*photo banner*/
 
@@ -108,7 +134,7 @@ body {
 	width: 100%;
 	background: white;
 	color: black;
-	padding: 15px 0px;
+	padding-top: 100px;
 }
 
 .carousel .slide {
@@ -131,7 +157,7 @@ body {
 	width: 100%;
 	background: white;
 	color: black;
-	padding: 15px 0px;
+	padding-top: 100px;
 }
 
 .grid {
@@ -158,6 +184,8 @@ body {
 	width: 100%;
 	background: white;
 	color: black;
+	padding-top: 100px;
+
 }
 
 .order h4 {
