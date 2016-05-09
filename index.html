@@ -1,0 +1,163 @@
+<html>
+<head>
+	<title>legs by liz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="lightbox.css">
+	<link rel="stylesheet" type="text/css" href="slick.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+<body>
+
+<!-- home page -->
+<div id="wrapper">
+
+<div class="header">
+	<div class="nav">
+		<nav class ="navOne"> 
+			<img src="Photos/logo.jpg">
+			<a href="#header">Home</a>
+			<a href="#about">About</a>
+			<a href="#gallery">Gallery</a>
+			<a href="#order">How to order</a>
+		</div>
+
+	</div>
+</div>
+
+<!-- photo banner -->
+<div class="banner">
+	<div id="scroller" style="width: 100%; height: 500px; margin: 0 auto;">
+    <div class="innerScrollArea">
+        <ul>
+            <!-- Define photos here -->
+            <li><img src="Photos/hang.jpg" width="700" height="550" /></li>
+            <li><img src="Photos/lineup.jpg" width="700" height="550" /></li>
+            <li><img src="Photos/tightsPic.jpg" width="700" height="550" /></li>
+            <li><img src="Photos/hang.jpg" width="700" height="550" /></li>
+            <li><img src="Photos/lineup.jpg" width="700" height="550" /></li>
+            <li><img src="Photos/tightsPic.jpg" width="700" height="550" /></li>
+            <li><img src="Photos/hang.jpg" width="250" height="550" /></li>
+        </ul>
+    </div>
+</div>
+</div>
+<!-- About Me -->
+<div class="about">
+	<div class="box">
+		<h3>
+			About
+		</h3>
+	<div class="carousel">
+	<div class="slide">Legs by Liz was founded in January 2016 by Liz Mulshine, a Jersey born and bred Upstate New Yorker, yoga-enthusiast, nurse and mother of four. </div>
+	<div class="slide">She was introduced to the world of spandex 11 years ago when her daughter asked Liz if she could make her a ski suit, which also led to making one for her daughter's friend, and another friend, and then the whole team.</div>
+	<div class="slide">The yoga pants started in a similar way. She made a pair for herself and then her friends. Advertising was simple as more people started wearing her pants and telling people about them.</div>
+	<div class="slide"> As a result, orders are coming in fast. Place your order today!</div>
+	
+	</div>
+</div>
+</div>
+
+
+<!-- gallery -->
+<div class="gallery">
+	<h3>Gallery</h3>
+</div>
+<div class="grid" data-masonry='{"itemSelector": ".grid-item", "columnWidth": 625}'>
+	<div class="grid-item">
+ 		 <a href="Photos/harvardski.jpg" data-lightbox="harvardski" data-title="Harvard Ski Team"><img src="Photos/harvardski.jpg" width="625px" height="450px"></a></div>
+	<div class="grid-item">
+	    <a href="Photos/abovelegs.jpg" data-lightbox="abovelegs" data-title="Lady legs"><img src="Photos/abovelegs.jpg" width="625px" height="450px"></a></div>
+	<div class="grid-item">
+	    <a href="Photos/friends.jpg" data-lightbox="friends" data-title="Friends"><img src="Photos/friends.jpg" width="625px" height="450px"></a></div>
+	<div class="grid-item">
+	    <a href="Photos/lineup.jpg" data-lightbox="lineup" data-title="Leg lineup"><img src="Photos/lineup.jpg" width="625px" height="450px"></a></div>
+	<div class="grid-item">
+	    <a href="Photos/frontlegs.jpg" data-lightbox="frontlegs" data-title="Leg lineup2"><img src="Photos/frontlegs.jpg" width="625px" height="450px"> </a></div>
+	<div class="grid-item">
+	    <a href="Photos/threegirlssit.jpg" data-lightbox="threegirlssit" data-title="Lady legs2"><img src="Photos/threegirlssit.jpg" width="625px" height="450px"></a></div>
+</div>
+
+
+<!-- how to order -->
+
+<div class="order">
+
+<h2>How to order</h2>
+<div id="submitOrder"> 
+<h4>Step 1: </h4>
+<a id="spandex" href="http://spandexworld.com/">Click here to choose a pattern from Spandex World!<i>(copy the link to page of pattern and paste in below form)</i></a>
+<h4> Step 2: </h4>
+<h4> Complete the form below to send your request directly to Liz </h4><br><br>
+
+<form action="MAILTO:lizmulshine@gmail.com" method="post" enctype="text/plain" id="form">
+	Name <input type="text" name="name" value="your name" id="name"><br>
+	<br>
+	E-mail <input type="text" name="email address" value="your email" id="email"><br>
+	<br>
+	<b>Gender Style</b>
+	<br>
+	<input type="radio" name="gender" value="mens" id="mens" checked> Men's <br>
+	<input type="radio" name="gender" value="womens" id="womens"> Women's <br>
+	<br>
+	<b>Type of legs</b>
+	<br>
+	<input type="radio" name="style" value="shorts" id="shorts" checked> Shorts ($25)<br>
+	<input type="radio" name="style" value="capris" id="capris"> Capris ($40)<br>
+	<input type="radio" name="style" value="pants" id="capris"> Pants ($55)<br>
+	<br>
+	<b>Size</b>
+	<br>
+	<input type="radio" name="size" value="xs" id="xs" checked> Extra Small<br>
+	<input type="radio" name="size" value="s" id="sm"> Small<br>
+  	<input type="radio" name="size" value="m" id="md"> Medium<br>
+   	<input type="radio" name="size" value="l" id="lg"> Large<br>
+   	<input type="radio" name="size" value="xl" id="xl"> Extra Large<br>
+	<br> 
+ 	
+ 	<b>Pay Method (Liz will email you with instruction to pay based on your response)</b>
+	<br>
+	<input type="radio" name="payMethod" value="payPal" id="paypal"> Paypal (will not ship until payment is made)
+	<br>
+   	<input type="radio" name="payMethod" value="check" id="check"> Check in mail (will not ship until check is received)
+   	<br>
+   	<br>
+   	<br>
+   	<b>URL to spandex pattern you want:</b>
+	<input type="text" name="spandex type" value="link to spandex" id="spandextype"><br><br>
+<input id="button" type="submit" value="Send">
+<input id="button" type="reset" value="Reset">
+</form>
+</div>
+</div>
+
+<!-- footer -->
+
+<div id="footer">
+	<div class="footer">
+	<a href="https://www.facebook.com/liz.mulshine" class="facebook"><img src="Photos/facebook.jpg"></a>
+	<a href="https://www.instagram.com/lizmulshine/" class="insta"><img src="Photos/insta.jpg"></a>
+
+	<p> copyright 2016 : <a href="MAILTO:lizmulshine@gmail.com">contact liz</a> 
+	</p>
+
+	</div>
+</div>
+</div>
+
+<!-- js tags -->
+<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.smint.js"></script>
+<script src="js/masonry.pkgd.js"></script>
+<script src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1pAUCU7hel7tTRdYR2tSABWTvcddG9sA"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+
+</body>
+</html>
