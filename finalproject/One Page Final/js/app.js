@@ -67,15 +67,7 @@ $('.carousel').slick({
 
 });
 
-//burger
 
-$('a #burger').click(function () {
-    $('.nav').slideToggle();
-        display: inline;
-});
-
-
-$()
 
 
 
