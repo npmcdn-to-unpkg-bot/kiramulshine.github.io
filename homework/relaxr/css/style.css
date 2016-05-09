@@ -14,11 +14,13 @@
 
 .sidebar {
   float: right;
+  clear: auto;
   padding: 0 0 10px 10px; 
 }
 
-.content article {
+.article {
   float: left;
+  clear: auto;  
   padding: 0 10px 10px 0; 
 }
 
