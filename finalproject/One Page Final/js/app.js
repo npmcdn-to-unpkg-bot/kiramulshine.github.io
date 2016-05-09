@@ -62,10 +62,10 @@ $(document).ready( function() {
 
 
 // carousel
-
-$('.carousel').slick({    
-
+$(document).ready ( function() {
+    $('.carousel').slick();
 });
+
 
 
 
