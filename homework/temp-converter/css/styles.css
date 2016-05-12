@@ -8,14 +8,20 @@ body {
 
 }
 
-#f {
-	margin-bottom: 100px;
+p {
+	text-decoration: bold;
 }
-
-#c {
-	margin-top: 100px;
-}
-
 input {
-	margin: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 40px;
+	color: deeppink;
 }
+
+input:hover {
+	opacity: .4;
+	color: pink;
+}
+

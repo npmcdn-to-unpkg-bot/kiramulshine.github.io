@@ -1,11 +1,20 @@
-var tempC = (tempf - 32)/1.8
-var tempF = tempC * 1.8 + 32
+// var tempC = (tempf - 32)/1.8
+// var tempF = tempC * 1.8 + 32
 
 
-$('input').keypress(function ({
-	if 
+// $('input').keypress(function ({
+// 	if 
 
-}) {
+// }) {
 
+// }
+
+function convert(degree) {
+    if (degree == "C") {
+        F = document.getElementById("c").value * 9 / 5 + 32;
+        document.getElementById("f").value = Math.round(F);
+    } else	{
+        C = (document.getElementById("f").value -32) * 5 / 9;
+        document.getElementById("c").value = Math.round(C);
+    }
 }
-
