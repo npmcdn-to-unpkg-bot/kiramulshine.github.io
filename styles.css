@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+	margin-top: 200px;
+	font-family: 'Century Gothic';
+	font-size: 35px;
+	background: white;
+	color: black;
+
+}
+
+p {
+	text-decoration: bold;
+}
+input {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 40px;
+	color: deeppink;
+}
+
+input:hover {
+	opacity: .4;
+	color: pink;
+}
+
