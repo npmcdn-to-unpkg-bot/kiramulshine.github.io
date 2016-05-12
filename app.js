@@ -1,20 +1,15 @@
- $(function(){
-        var scroller = $('#scroller div.innerScrollArea');
-        var scrollerContent = scroller.children('ul');
-        scrollerContent.children().clone().appendTo(scrollerContent);
-        var curX = 0;
-        scrollerContent.children().each(function(){
-            var $this = $(this);
-            $this.css('left', curX);
-            curX += $this.outerWidth(true);
-        });
-        var fullW = curX / 2;
-        var viewportW = scroller.width();
 
-        scroller.css('overflow-x', 'auto');
-    });
+$(document).ready(function () {
+	var amount = 0;
+	$('#entry').submit(function (event) {
+		event.preventDefault();
+	var newEntry = $('#newEntry').val();
+		newEntry = parseFloat(newEntry);
+	$('#entries').append('<tr><td></td><td>' + newEntry + '</td></tr>');
+		amount = amount + newEntry
+	$('#total').text('$' + amount);
+	$('#newEntry').val('');
+	});
 
-
-    $('#burger').click(function () {
-        $('#nav').slideToggle();
 })
+
