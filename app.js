@@ -1,20 +1,20 @@
-// var tempC = (tempf - 32)/1.8
-// var tempF = tempC * 1.8 + 32
+ $(function(){
+        var scroller = $('#scroller div.innerScrollArea');
+        var scrollerContent = scroller.children('ul');
+        scrollerContent.children().clone().appendTo(scrollerContent);
+        var curX = 0;
+        scrollerContent.children().each(function(){
+            var $this = $(this);
+            $this.css('left', curX);
+            curX += $this.outerWidth(true);
+        });
+        var fullW = curX / 2;
+        var viewportW = scroller.width();
+
+        scroller.css('overflow-x', 'auto');
+    });
 
 
-// $('input').keypress(function ({
-// 	if 
-
-// }) {
-
-// }
-
-function convert(degree) {
-    if (degree == "C") {
-        F = document.getElementById("c").value * 9 / 5 + 32;
-        document.getElementById("f").value = Math.round(F);
-    } else	{
-        C = (document.getElementById("f").value -32) * 5 / 9;
-        document.getElementById("c").value = Math.round(C);
-    }
-}
+    $('#burger').click(function () {
+        $('#nav').slideToggle();
+})
