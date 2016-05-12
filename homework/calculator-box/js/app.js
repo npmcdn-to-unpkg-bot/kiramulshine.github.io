@@ -12,36 +12,65 @@
 // - . text() or .html()
 // - .css()
 
+$(document).ready(function(){
+
+
 var amount = 0;
 
 $('#a10').click(addTen)
 function addTen() {
 	amount = amount + 10
-	$('#out').html(amount)
+	$('#out').html(amount);
 }
 
 $('#a20').click(addTwenty)
 function addTwenty() {
-	amount = amount + 10 
-	$('#out').html(amount)
+	amount = amount + 20 
+	$('#out').html(amount);
 }
 
 $('#a30').click(addThirty)
 function addThirty() {
-	amount = amount + 10 
-	$('#out').html(amount) 
+	amount = amount + 30 
+	$('#out').html(amount);
 }
+
+$('#n10').click(minusTen)
+function minusTen() {
+	amount = amount - 10
+	$('#out').html(amount);
+}
+
+$('#n20').click(minusTwenty)
+function minusTwenty() {
+	amount = amount - 20
+	$('#out').html(amount);
+}
+
+$('#n30').click(minusThirty)
+function minusThirty() {
+	amount = amount - 30
+	$('#out').html(amount);
+}
+		
 
 $('#red').click(turnRed)
 function turnRed (){
-	amount = 0
 	$('#out').css('background', 'red')
-	$('#out').html(amount)
 }
-$('#out').click(zero)
-function zero() {
-	$('#out').html(amount)
+
+$('#blue').click(turnBlue)
+function turnBlue () {
+	$('#out').css('background', 'blue')
 }
+
+$('#out').click(function(){
+	amount = 0
+	$('#out').html(amount)
+	$('#out').css('background', 'white')
+})
+
+})
 // $('#blue').click(turnBlue);
 // $('#n10').click(minusTen);
 // $('#n20').click(minusTwenty);

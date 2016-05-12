@@ -14,6 +14,7 @@
         scroller.css('overflow-x', 'auto');
     });
 
+
     $('#burger').click(function () {
-    $('#mobile-nav').slideToggle();
+        $('#nav').slideToggle();
 })
