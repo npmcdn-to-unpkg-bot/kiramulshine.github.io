@@ -1,74 +1,78 @@
+// 1. Besure to write your code within the $(document).ready(...)
+// 2. Add .click() event handlers for each of the boxes:
+// - A) boxes #a10, #a20, and #a30 should each add 10, 20, and 30, respectively, to the value in the center box, #out
+// - B) boxes #n10, #n20, and #n30 should each subtract 10, 20, and 30, respectively, from the value in the center box, #out
+// - C) #red and #blue should change the background color of #out to red and blue, respectively
+// - D) #out should change the background of #out to white, and set the value back to zero
+// HINT: define a variable, var count = 0, at the top of your function; use this variable to keep track of what to display inside of #out
+// Ex: when the user clicks #a10, add 10 to the var count, and then reflect this change in the HTML
+//
+// jQuery Methods Needed:
+// - .click()
+// - . text() or .html()
+// - .css()
+
+$(document).ready(function(){
 
 
-//gallery
+var amount = 0;
 
- $(document).ready(function(){
-        var scroller = $('#scroller div.innerScrollArea');
-        var scrollerContent = scroller.children('ul');
-        scrollerContent.children().clone().appendTo(scrollerContent);
-        var curX = 0;
-        scrollerContent.children().each(function(){
-            var $this = $(this);
-            $this.css('left', curX);
-            curX += $this.outerWidth(true);
-        });
-        var fullW = curX / 2;
-        var viewportW = scroller.width();
+$('#a10').click(addTen)
+function addTen() {
+	amount = amount + 10
+	$('#out').html(amount);
+}
 
-        // scroll speed 
-        var controller = {curSpeed:0, fullSpeed:2};
-        var $controller = $(controller);
-        var tweenToNewSpeed = function(newSpeed, duration)
-        {
-            if (duration === undefined)
-                duration = 600;
-            $controller.stop(true).animate({curSpeed:newSpeed}, duration);
-        };
+$('#a20').click(addTwenty)
+function addTwenty() {
+	amount = amount + 20 
+	$('#out').html(amount);
+}
 
-        // pause on hover
-        scroller.hover(function(){
-            tweenToNewSpeed(0);
-        }, function(){
-            tweenToNewSpeed(controller.fullSpeed);
-        });
+$('#a30').click(addThirty)
+function addThirty() {
+	amount = amount + 30 
+	$('#out').html(amount);
+}
 
-        // start automatic scrolling
-        var doScroll = function()
-        {
-            var curX = scroller.scrollLeft();
-            var newX = curX + controller.curSpeed;
-            if (newX > fullW*2 - viewportW)
-                newX -= fullW;
-            scroller.scrollLeft(newX);
-        };
-        setInterval(doScroll, 20);
-        tweenToNewSpeed(controller.fullSpeed);
-    });
+$('#n10').click(minusTen)
+function minusTen() {
+	amount = amount - 10
+	$('#out').html(amount);
+}
 
+$('#n20').click(minusTwenty)
+function minusTwenty() {
+	amount = amount - 20
+	$('#out').html(amount);
+}
 
-// Grid//
+$('#n30').click(minusThirty)
+function minusThirty() {
+	amount = amount - 30
+	$('#out').html(amount);
+}
+		
 
-$('.grid').masonry({
-  itemSelector: '.grid-item',
-  columnWidth: 625
-});
+$('#red').click(turnRed)
+function turnRed (){
+	$('#out').css('background', 'red')
+}
 
+$('#blue').click(turnBlue)
+function turnBlue () {
+	$('#out').css('background', 'blue')
+}
 
-// scroll through//
+$('#out').click(function(){
+	amount = 0
+	$('#out').html(amount)
+	$('#out').css('background', 'white')
+})
 
-$(document).ready( function() {
-    $('.navOne').smint();
-});
+})
+// $('#blue').click(turnBlue);
+// $('#n10').click(minusTen);
+// $('#n20').click(minusTwenty);
+// $('#n30').click(minusThirty);
 
-
-// carousel
-
-$('.carousel').slick({    
-
-});
-
-
-
-
-
-    
